@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model Assignment</title>
+    <!-- The stylesheet is linked here -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- A single container to manage the layout of the entire page content -->
+    <div class="page-container">
+
+        <!-- A navigation bar to demonstrate padding and margins -->
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- The main header, now styled as a card -->
+        <header class="main-header card-like">
+            <h1>Welcome to the Box Model Demo</h1>
+            <p>This example shows how margin, padding, and borders affect layout.</p>
+        </header>
+
+        <!-- The main content section, a flex container for the cards -->
+        <section class="card-container">
+            <!-- Card 1 -->
+            <div class="card card-like">
+                <h2>Card One</h2>
+                <p>This card has a distinct border and background color. The space between the content and the border is created with padding.</p>
+                <button class="cta-button">View Details</button>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card card-like">
+                <h2>Card Two</h2>
+                <p>This is another card. Notice how the space between this card and the previous one is created by a margin on the container.</p>
+                <button class="cta-button">Learn More</button>
+            </div>
+        </section>
+
+        <!-- A footer section -->
+        <footer class="main-footer">
+            <p>&copy; 2025 CSS Basics</p>
+        </footer>
+    </div>
+</body>
+</html>
+
